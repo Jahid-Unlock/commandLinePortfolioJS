@@ -1,0 +1,124 @@
+/* defult CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS Variable */
+
+:root{
+   main-color : black;
+}
+
+
+#portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    background: radial-gradient(circle,rgb(23, 42, 69),rgb(10, 25, 47) 52%, rgb(23, 42, 69) 68%);
+}
+
+.portfolio_box{
+   
+    padding: 30px;
+    overflow: hidden;
+    color: white;
+    background: rgba( 23, 42, 69, 0.55 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.0px );
+-webkit-backdrop-filter: blur( 4.0px );
+}
+.portfolio_box h1{
+    text-align: center;
+    margin-bottom: 30px;
+    list-style-position: 2px;
+    color: sandybrown;
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.portfolio_box .about{
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    color: rgb(255, 255, 49);
+}
+.portfolio_box .command{
+    font-family: 'Source Code Pro', monospace;
+    color: slateblue;
+}
+.portfolio_box .about{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.links{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: slateblue;
+    font-family: 'Source Code Pro', monospace;
+}
+.label{
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(128, 117, 117);
+}
+.links span{
+    margin-left: 8px;
+    border-bottom: 1px solid steelblue;
+}
+
+.links span:first-child{
+    margin-left: 0;
+}
+
+.command_input input{
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: steelblue;
+    font-family: 'Source Code Pro', monospace;
+}
+.skill, .clear, .abo, .contact, .error{
+    display: none;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(128, 117, 117);
+}
+.abo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.abo p{
+    margin-top: 5px;;
+}
+.abo h3{
+    color: sandybrown;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.skill ul, .contact ul{
+    list-style: none;
+    margin-top: 5px;
+    mergin-bottom: 5px;
+    
+}
+.contact ul li{
+    margin-top: 5px;
+}
+.contact ul li a{
+    color: rgb(84, 122, 236);
+    text-decoration: none;
+}
+    
+.disply{
+    display: block !important;
+}
